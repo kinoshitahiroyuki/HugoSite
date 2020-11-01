@@ -1,7 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "ja-jp"
 title = "Hugo-NetlifyCMS-Trial"
-theme = "ananke"
 
 [params]
   author = "hiroyu kinoshita"
