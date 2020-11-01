@@ -28,12 +28,6 @@ theme = "bootstrap-bp-hugo-theme"
     weight = 10
     pre = "<i class='fas fa-newspaper'></i>"
 
-  [[menu.footer]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 30
-
 [social]
   # Coding Communities
   github           = ""
