@@ -1,18 +1,76 @@
-baseURL = "http://example.org/"
+baseURL = "https://stkokoninetlifycms.z11.web.core.windows.net/"
 languageCode = "ja-jp"
 title = "Hugo-NetlifyCMS-Trial"
-theme = "ananke"
+theme = "bootstrap-bp-hugo-theme"
 
 [params]
   author = "hiroyu kinoshita"
   description = "This is a Test Site! That's it!!"
-  github = "https://github.com/kinoshitahiroyuki/HugoSite"
-  facebook = "nhttps://www.facebook.com/"
-  twitter = "https://twitter.com/home"
-  misskey = "user profile url"
-  mastodon = "user profile url"
-  email = "example@domain.com"
-  utterances = "example/example.github.io"
-  avatar = "https://example.com/images/avatar.png"
-  url = "https://example.com"
-  keywords = "blog, google analytics"
+  startPageColumns = true
+  customDateFormat = "2006/01/02"
+  showListsGrouped = true
+  showPostSummary = true
+  alwaysExpandMenu = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog/"
+    weight = 9
+    pre = "<i class='fas fa-newspaper'></i>"
+
+  [[menu.main]]
+    identifier = "article"
+    name = "Article"
+    url = "/article/"
+    weight = 10
+    pre = "<i class='fas fa-newspaper'></i>"
+
+  [[menu.footer]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+[social]
+  # Coding Communities
+  github           = ""
+  gitlab           = ""
+  stackoverflow    = "" # User Number
+  bitbucket        = ""
+  jsfiddle         = ""
+  codepen          = ""
+  # Visual Art Communities
+  deviantart       = ""
+  flickr           = ""
+  behance          = ""
+  dribbble         = ""
+  # Publishing Communities
+  wordpress        = ""
+  medium           = ""
+  # Professional/Business Oriented Communities
+  linkedin         = ""
+  linkedin_company = ""
+  foursquare       = ""
+  xing             = ""
+  slideshare       = ""
+  # Social Networks
+  facebook         = "spechde" # https://fb.me/spech.de
+  googleplus       = ""
+  reddit           = ""
+  quora            = ""
+  youtube          = "/channel/UCrRRKovAoTYGIIB9T08pbHw" # https://www.youtube.com/channel/UCrRRKovAoTYGIIB9T08pbHw
+  vimeo            = ""
+  whatsapp         = "" # WhatsApp Number
+  instagram        = "sebastian_pech" # https://www.instagram.com/flowartsde/
+  tumblr           = ""
+  twitter          = "spech84"
+  skype            = ""
+  snapchat         = ""
+  pinterest        = ""
+  telegram         = ""
+  discord          = "" # invite link
+  # Email
+  email            = ""
