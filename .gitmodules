@@ -1,3 +1,21 @@
 [submodule "site/themes/github-style"]
 	path = site/themes/github-style
 	url = git@github.com:MeiK2333/github-style.git
+[submodule "site/themes/hugo-future-imperfect-slim"]
+	path = site/themes/hugo-future-imperfect-slim
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "site/themes/themes/hugo-swift-theme"]
+	path = site/themes/themes/hugo-swift-theme
+	url = https://github.com/onweru/hugo-swift-theme.git
+[submodule "site/themes/themes/newsroom"]
+	path = site/themes/themes/newsroom
+	url = https://github.com/onweru/newsroom.git
+[submodule "site/themes/Blonde"]
+	path = site/themes/Blonde
+	url = https://github.com/opera7133/Blonde.git
+[submodule "site/themes/hugo-swift-theme"]
+	path = site/themes/hugo-swift-theme
+	url = https://github.com/onweru/hugo-swift-theme.git
+[submodule "site/themes/gohugo-theme-ananke"]
+	path = site/themes/gohugo-theme-ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
