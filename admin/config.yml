@@ -3,7 +3,7 @@ backend:
   repo: kinoshitahiroyuki/HugoSite
   branch: master
 
-media_folder: "images"
+media_folder: "site/static/images"
 public_folder: "images"
 publish_mode: editorial_workflow
 locale: "ja"
