@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: kinoshitahiroyuki/HugoSite
-  branch: gh-pages
+  branch: master
 
 media_folder: "site/static/images"
 publish_mode: editorial_workflow
