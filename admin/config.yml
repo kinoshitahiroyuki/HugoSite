@@ -4,7 +4,7 @@ backend:
   branch: master
 
 media_folder: "site/static/images"
-public_folder: "images"
+public_folder: "/images"
 publish_mode: editorial_workflow
 locale: "ja"
 
