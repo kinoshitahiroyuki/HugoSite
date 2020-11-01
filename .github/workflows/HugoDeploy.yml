@@ -28,7 +28,7 @@ jobs:
         shell: bash
       
       - name: Build
-        run: 
+        run: | 
           cd site
           hugo --minify
 
