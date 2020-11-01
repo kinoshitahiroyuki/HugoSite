@@ -1,14 +1,14 @@
 baseURL = "http://example.org/"
 languageCode = "ja-jp"
 title = "Hugo-NetlifyCMS-Trial"
-theme = "github-style"
+theme = "ananke"
 
 [params]
   author = "hiroyu kinoshita"
   description = "This is a Test Site! That's it!!"
-  github = "no"
-  facebook = "no"
-  twitter = "no"
+  github = "https://github.com/kinoshitahiroyuki/HugoSite"
+  facebook = "nhttps://www.facebook.com/"
+  twitter = "https://twitter.com/home"
   misskey = "user profile url"
   mastodon = "user profile url"
   email = "example@domain.com"
