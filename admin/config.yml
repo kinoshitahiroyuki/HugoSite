@@ -17,10 +17,13 @@ collections:
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - { label: "メタ情報", name: "description", widget: "text"}
       - { label: "タイトル", name: "title", widget: "string" }
-      - { label: "公開日", name: "date", widget: "datetime" }
+      - { label: "公開日", name: "date", widget: "datetime", multiple: true }
       - { label: "サムネイル画像", name: "thumbnail", widget: "image" }
       - { label: "本文", name: "body", widget: "markdown" }
+      - { label: "草案", name: "draft", widget: "boolean", default: true}
       - { label: "Public", name: "public", widget: "boolean", default: true}
+      - { label: "カテゴリ", name: "categories", widget: "string"}
+      - { label: "Tags", name: "tags", widget: "list"}
   - label: "Article" # 管理画面のサイドバーで使う
     name: "article" # 管理画面のパスで使う
     folder: "site/content/article" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
@@ -32,4 +35,7 @@ collections:
       - { label: "公開日", name: "date", widget: "datetime" }
       - { label: "サムネイル画像", name: "thumbnail", widget: "image" }
       - { label: "本文", name: "body", widget: "markdown" }
+      - { label: "草案", name: "draft", widget: "boolean", default: true}
       - { label: "Public", name: "public", widget: "boolean", default: true}
+      - { label: "カテゴリ", name: "categories", widget: "string"}
+      - { label: "Tags", name: "tags", widget: "list"}
