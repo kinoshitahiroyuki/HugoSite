@@ -15,7 +15,7 @@ album: image: .jpg caption: Write your image caption here</description></item><i
 こぼさないで なみだ
 だから君は とぶんだどこまでも
 そおだ
-public string dontBeAfraid() { var reason = &amp;#34;みんなのために&amp;#34;; retrun reason; } Love And Brave are just your only friends!!
+public string dontBeAfraid() { var reason = &amp;#34;みんなのために&amp;#34;; return reason; } Love And Brave are just your only friends!!
 作詞・作曲　パン工場</description></item><item><title>アンコを含んだパンの生態に関しての記録</title><link>https://kinoshitahiroyuki.github.io/HugoSite/blog/2020-11-01-%E3%82%A2%E3%83%B3%E3%82%B3%E3%82%92%E5%90%AB%E3%82%93%E3%81%A0%E3%83%91%E3%83%B3%E3%81%AE%E7%94%9F%E6%85%8B%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6%E3%81%AE%E8%A8%98%E9%8C%B2/</link><pubDate>Sun, 01 Nov 2020 03:40:57 +0000</pubDate><guid>https://kinoshitahiroyuki.github.io/HugoSite/blog/2020-11-01-%E3%82%A2%E3%83%B3%E3%82%B3%E3%82%92%E5%90%AB%E3%82%93%E3%81%A0%E3%83%91%E3%83%B3%E3%81%AE%E7%94%9F%E6%85%8B%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6%E3%81%AE%E8%A8%98%E9%8C%B2/</guid><description>何が君の幸せ 何をしてよろこぶ？
 わからないまま進む そんなのはいやだ！
 忘れないで 夢を
