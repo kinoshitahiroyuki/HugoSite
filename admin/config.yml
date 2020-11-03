@@ -22,8 +22,8 @@ collections:
       - { label: "本文", name: "body", widget: "markdown" }
       - { label: "草案", name: "draft", widget: "boolean", default: true}
       - { label: "Public", name: "public", widget: "boolean", default: true}
-      - { label: "カテゴリ", name: "categories", widget: "string"}
-      - { label: "Tags", name: "tags", widget: "list"}
+      - { label: "カテゴリ", name: "categories", widget: "string",required: false}
+      - { label: "Tags", name: "tags", widget: "list",required: false}
   - label: "Article" # 管理画面のサイドバーで使う
     name: "article" # 管理画面のパスで使う
     folder: "site/content/article" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
@@ -37,5 +37,5 @@ collections:
       - { label: "本文", name: "body", widget: "markdown" }
       - { label: "草案", name: "draft", widget: "boolean", default: true}
       - { label: "Public", name: "public", widget: "boolean", default: true}
-      - { label: "カテゴリ", name: "categories", widget: "string"}
-      - { label: "Tags", name: "tags", widget: "list"}
+      - { label: "カテゴリ", name: "categories", widget: "string",required: false}
+      - { label: "Tags", name: "tags", widget: "list",required: false}
